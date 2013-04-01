@@ -37,14 +37,24 @@ public class DirectionUtils
 		
 		switch(direction) // <- That looks funny :D
 		{
-			case 0: newLoc[1] -= amount;
-			case 1: newLoc[1] += amount;
-			
-			case 2: newLoc[0] += amount;
-			case 3: newLoc[0] -= amount;
-			
-			case 4: newLoc[2] -= amount;
-			case 5: newLoc[2] += amount;
+			case 0:
+				newLoc[1] -= amount;
+				break;
+			case 1:
+				newLoc[1] += amount;
+				break;
+			case 2:
+				newLoc[0] += amount;
+				break;
+			case 3:
+				newLoc[0] -= amount;
+				break;
+			case 4:
+				newLoc[2] -= amount;
+				break;
+			case 5:
+				newLoc[2] += amount;
+				break;
 		}
 		
 		return newLoc;
