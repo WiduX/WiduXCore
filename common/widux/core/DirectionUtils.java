@@ -44,16 +44,16 @@ public class DirectionUtils
 				newLoc[1] += amount;
 				break;
 			case 2:
-				newLoc[0] += amount;
-				break;
-			case 3:
-				newLoc[0] -= amount;
-				break;
-			case 4:
 				newLoc[2] -= amount;
 				break;
-			case 5:
+			case 3:
 				newLoc[2] += amount;
+				break;
+			case 4:
+				newLoc[0] -= amount;
+				break;
+			case 5:
+				newLoc[0] += amount;
 				break;
 		}
 		
